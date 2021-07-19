@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap');
+.section6{
+    background-color: #EE0505;
+}
+
+.title6{
+    font-family: 'B612', sans-serif;
+    font-size: 1.8rem;
+}
+
+.para6{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+.first_box{
+    width: 100px;
+    font-family: 'Coda Caption', sans-serif;
+    font-size: 1.3rem;
+}
+
+.testimonials{
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    height: 450px;
+}
+
+.testimonial_card{
+    background-color: white;
+    margin-left: 0.8rem;
+    width: 250px;
+    height: 200px;
+    padding: 0;
+}
+
+.card_matter{
+    padding-top: 2rem;
+    width: 12rem;
+    padding-left: 3.5rem;
+    font-weight: 900;
+}
+
+.footer{
+    background: #FEF40B;
+    height: 200px;
+    padding-top: 2rem;
+    margin: 0;
+}
+
+@media (max-width: 600px){
+    .first_box{
+        font-size: 1rem;
+        width: 425px;
+        padding-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .testimonial_card{
+        width: 350px;
+        height: 100px;
+        margin-left: 1rem;
+        background-color: white;
+        margin-bottom: 1rem;
+        border-radius: 15px;
+    }
+    .para6{
+        font-size: 0.8rem;
+    }
+    .card_matter{
+        padding-left: 2rem;
+    }
+
+    .card_name{
+        padding-right: 1rem;
+    }
+
+    .footer{
+        height: 150px;
+    }
+    .footer .logo{
+        font-size: 1rem;
+    }
+    .title6{
+        font-size: 1rem;
+    }
+
+    .footer .para6{
+        font-size: 0.7rem;
+        margin-bottom: 0;
+    }
+    .testimonials{
+        padding-top: 4rem;
+        margin-bottom: 3rem;
+    }
+}

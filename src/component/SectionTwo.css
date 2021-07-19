@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Roboto&display=swap');
+
+.section_two{
+    height: 100vh;
+    background-color: white;
+}
+
+.heading2{
+    font-family: 'B612', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.para2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: black;
+}
+
+.image2{
+    width: 538px;
+    height: 340px;
+}
+
+@media  (max-width: 600px)  {
+    .image2{
+        width: 200px;
+        height: 150px;
+        margin: 4rem;
+    }
+
+    .heading2{
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .para2{
+        font-size: 0.8rem;
+        text-align: justify;
+    }
+    .S2_matter{
+        margin: 0.2rem;
+    }
+}

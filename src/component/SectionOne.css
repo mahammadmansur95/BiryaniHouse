@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&family=Roboto&display=swap');
+
+.section_one{
+    /* width: 500px; */
+    height: 100vh;
+    background-color: #EE0505;
+}
+
+.heading{
+    font-family: 'B612', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.para{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.image{
+    width: 500px;
+    height: 600px;
+}
+
+@media  (max-width: 600px)  {
+    .image{
+        width: 200px;
+        height: 280px;
+        margin-left: 4.2rem;
+        margin-top: 1rem;
+    }
+
+    .heading{
+        font-size: 1rem;
+    }
+
+    .para{
+        font-size: 0.8rem;
+    }
+}
+
