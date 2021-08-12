@@ -14,7 +14,7 @@ const SectionOne = () => {
           </p>
         </div>
         <div className="col-lg-6 image_container">
-            <img src={image} alt="hero image" className="image"/>
+            <img src={image} alt="hero" className="image"/>
         </div>
 
       </div>

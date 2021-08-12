@@ -29,7 +29,7 @@ const SectionFive = () => {
                     data.map( item => {
                         return (
                             <div className="col">
-                                <img src={item.image} alt="chef image" className="chef_image"/>
+                                <img src={item.image} alt="chef" className="chef_image"/>
                                 <p className="chef_title">{item.name}</p>
                             </div>
                         );

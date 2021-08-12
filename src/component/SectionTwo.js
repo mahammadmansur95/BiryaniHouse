@@ -8,7 +8,7 @@ const SectionTwo = () => {
       <div className="row  m-6">
         
         <div className="col-lg-6 image_container">
-          <img src={image} alt="hero image" className="image2" />
+          <img src={image} alt="hero" className="image2" />
         </div>
         <div className="col-lg-6 ps-lg-5 pt-lg-5 S2_matter">
           <h2 className="pb-2 heading2">About</h2>

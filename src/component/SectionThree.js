@@ -43,11 +43,11 @@ const SectionThree = () => {
           <h1 className="heading">Our Dishes</h1>
           <p className="pt-1 para3">Our mission is to WOW people every day!</p>
         </div>
-        <div className="d-flex  flex-lg-wrap justify-content-around pt-3">
+        <div className="d-flex cards_container flex-lg-wrap justify-content-around pt-3">
           {data1.map((item) => {
             return (
               <div className="card cardS3">
-                <img src={item.image} className="imageS3" />
+                <img src={item.image} alt="card" className="imageS3" />
                 <div class="card-body cardBody">
                   <p class="card-text text-center card_title">{item.title}</p>
                 </div>
@@ -59,7 +59,7 @@ const SectionThree = () => {
           {data2.map((item) => {
             return (
               <div className="card cardS3">
-                <img src={item.image} className="imageS3" />
+                <img src={item.image} alt="card" className="imageS3" />
                 <div class="card-body cardBody" >
                   <p class="card-text text-center card_title" >{item.title}</p>
                 </div>
